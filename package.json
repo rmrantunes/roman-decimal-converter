@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules",
+    "compl:roman": "tsc roman-to-decimal/converter.ts roman-to-decimal/index.ts"
+  },
+  "name": "app-ideas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
