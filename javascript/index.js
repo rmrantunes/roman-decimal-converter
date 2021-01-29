@@ -1,4 +1,4 @@
-import { Converter } from "./converter";
+import { Converter } from "./converter.js";
 var input = document.querySelector("#input");
 var result = document.querySelector("#result");
 var isNotANumber = function (string) { return isNaN(Number(string)); };
